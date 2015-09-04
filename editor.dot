@@ -1,0 +1,23 @@
+<div class="block-image-attribute-editor" data-id="image-editor">
+
+  <div class="block-image-attribute-editor-wrapper">
+    <h3>i18n-image-editor</h3>
+    {{? it.editorTitle }}
+    <p>{{= it.editorTitle}}</p>
+    {{?}}
+    <label>source (src)</label>
+    <input type="text" name="src" placeholder="image source url (src)">
+
+    <label>alternative description (alt)</label>
+    <input type="text" name="alt" placeholder="alternative description (alt)">
+
+    <label>optional style</label>
+    <input type="text" name="style" placeholder="e.g. width:50%; margin: auto; display: block;">
+
+    <label>optional class</label>
+    <input type="text" name="class" placeholder="e.g. fullwidth">
+
+  </div>
+
+</div>
+

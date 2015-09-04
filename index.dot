@@ -1,0 +1,2 @@
+ <img src="{{= it.src }}" alt="{{= it.alt || '' }}" title="{{= it.title || '' }}" description="{{= it.description || '' }}" caption="{{= it.caption || '' }}" class="{{= it.class || '' }}" style="{{= it.style || '' }}" />
+

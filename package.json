@@ -1,0 +1,53 @@
+{
+  "name": "glint-block-image-attribute",
+  "version": "1.0.0",
+  "description": "Editable Image link Block",
+  "main": "server.js",
+  "browser": "browser.js",
+  "browserify": {
+    "transform": [
+      [
+        "brfs"
+      ],
+      [
+        "envify",
+        {
+          "_": "purge"
+        }
+      ]
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "editable",
+    "contenteditable",
+    "inline",
+    "editable",
+    "metadata",
+    "glint",
+    "block",
+    "image",
+    "attribute"
+  ],
+  "author": "Andi Neck",
+  "license": "MIT",
+  "dependencies": {
+    "amp-add-class": "^1.1.0",
+    "amp-remove-class": "^1.1.0",
+    "domify": "^1.4.0",
+    "load-script": "^1.0.0",
+    "load-style": "^1.0.0",
+    "url-pathname": "^1.0.1",
+    "utils-merge": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glintcms/glint-block-image-attribute.git"
+  },
+  "bugs": {
+    "url": "https://github.com/glintcms/glint-block-image-attribute/issues"
+  },
+  "homepage": "https://github.com/glintcms/glint-block-image-attribute"
+}
