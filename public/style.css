@@ -8,14 +8,13 @@
   display: block;
   width: 100%;
   padding-top: 20px;
-
-
 }
 
 .block-image-attribute-editor input {
   width: 100%;
 
 }
+
 /* from bootstrap .form-control */
 .block-image-attribute-editor input {
   display: block;
